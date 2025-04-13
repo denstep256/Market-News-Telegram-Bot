@@ -9,4 +9,4 @@ main = ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text='📧Получить 
 time_zone_keyboard = ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text='🏠МСК (UTC+3)')],
                                                   [KeyboardButton(text='🏠Иркутск (UTC+8)')],
                                                   [KeyboardButton(text='Вернуться в меню')]],
-                           resize_keyboard=True)
+                                         resize_keyboard=True)
